@@ -1,0 +1,97 @@
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: #BDEDFF;
+}
+
+body {
+    background-color: #5AAECC;
+    text-align: center;
+    font-family: 'Noto Sans';
+}
+
+footer {
+    /* background-color: dodgerblue; */
+    border: black 5px;
+}
+
+nav {
+    /* background-color: cornflowerblue; */
+}
+.navBar {
+    /* font-size:100px; */
+    margin:100px;
+}
+
+a {
+    padding: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #386C80;
+}
+h1 {
+    font-size:90px;
+}
+
+/* class - if reused */
+.construction {
+    background-color: darkgoldenrod;
+}
+
+/* id if single instance */
+#contactPic {
+    height: 600px;
+    radi
+}
+
+#contactPic:hover {
+    border-radius: 50%;
+}
+
+#socialMediaTable {
+    /* margin-left:25%;
+    margin-right:25%; */
+    table-layout: auto;
+    width: 100%;
+    border-bottom: 2px solid darkorange;
+}
+
+th {
+    font-size: 2em;
+    color: darkblue;
+    background-color: lightblue;
+}
+
+tr, td {
+    border: 2px solid green;
+}
+
+tr:nth-child(odd){
+    background-color: lightgreen;
+
+}
+#projects {
+    align-items: center;
+    background-color: lightgreen;
+}
+li{
+    list-style-type:lower-roman;
+    text-align: left;
+    margin-left: 100px;
+}
+details{
+    border: 2px solid black;
+}
+
+input{
+    background-color: chartreuse;
+}
